@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TysiacClassLibrary.Gracz">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <AssociationLine Name="kartyWygrane" Type="TysiacClassLibrary.ZbiorKart" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="0.938" />
+        <Point X="2" Y="0.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAEoAACAIABAkhAEAgAABAIABCAEBAQCBAQAAAAQ=</HashCode>
+      <FileName>Gracz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graczControl" />
+      <Field Name="kartyWygrane" />
+      <Field Name="kartyRozdane" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TysiacClassLibrary.GraczControl">
+    <Position X="6.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABgCAAAAAAAACAIQACAAAAAQBAAAAAQACAAAA=</HashCode>
+      <FileName>GraczControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.ZbiorKart" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TysiacClassLibrary.ZbiorKart.DoubleClickHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ZbiorKart.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CgAgAAIAICCAADBDCQAAACgAQAAABgABgBYAEAACIAA=</HashCode>
+      <FileName>ZbiorKart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>

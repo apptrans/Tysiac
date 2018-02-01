@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonRozdajKarty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 470</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonRozdajKarty.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonRozdajKarty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonRozdajKarty.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonRozdajKarty.Text" xml:space="preserve">
+    <value>Rozdaję karty</value>
+  </data>
+  <data name="buttonRozdajKarty.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonRozdajKarty.Name" xml:space="preserve">
+    <value>buttonRozdajKarty</value>
+  </data>
+  <data name="&gt;&gt;buttonRozdajKarty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRozdajKarty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRozdajKarty.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="buttonPasuj.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonPasuj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 468</value>
+  </data>
+  <data name="buttonPasuj.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonPasuj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 28</value>
+  </data>
+  <data name="buttonPasuj.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonPasuj.Text" xml:space="preserve">
+    <value>Pasuję</value>
+  </data>
+  <data name="buttonPasuj.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonPasuj.Name" xml:space="preserve">
+    <value>buttonPasuj</value>
+  </data>
+  <data name="&gt;&gt;buttonPasuj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPasuj.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPasuj.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="buttonLicytuj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 468</value>
+  </data>
+  <data name="buttonLicytuj.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonLicytuj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="buttonLicytuj.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonLicytuj.Text" xml:space="preserve">
+    <value>Licytuję</value>
+  </data>
+  <data name="buttonLicytuj.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonLicytuj.Name" xml:space="preserve">
+    <value>buttonLicytuj</value>
+  </data>
+  <data name="&gt;&gt;buttonLicytuj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLicytuj.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonLicytuj.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="numericUpDownLicytuj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 468</value>
+  </data>
+  <data name="numericUpDownLicytuj.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="numericUpDownLicytuj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="numericUpDownLicytuj.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="numericUpDownLicytuj.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownLicytuj.Name" xml:space="preserve">
+    <value>numericUpDownLicytuj</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownLicytuj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownLicytuj.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownLicytuj.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="buttonPobierzTalon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 214</value>
+  </data>
+  <data name="buttonPobierzTalon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonPobierzTalon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="buttonPobierzTalon.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonPobierzTalon.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="buttonPobierzTalon.ToolTip" xml:space="preserve">
+    <value>Pobierz talon</value>
+  </data>
+  <data name="buttonPobierzTalon.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonPobierzTalon.Name" xml:space="preserve">
+    <value>buttonPobierzTalon</value>
+  </data>
+  <data name="&gt;&gt;buttonPobierzTalon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPobierzTalon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonPobierzTalon.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonRozpocznijGre.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonRozpocznijGre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 503</value>
+  </data>
+  <data name="buttonRozpocznijGre.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonRozpocznijGre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="buttonRozpocznijGre.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonRozpocznijGre.Text" xml:space="preserve">
+    <value>Gram</value>
+  </data>
+  <data name="buttonRozpocznijGre.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonRozpocznijGre.Name" xml:space="preserve">
+    <value>buttonRozpocznijGre</value>
+  </data>
+  <data name="&gt;&gt;buttonRozpocznijGre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRozpocznijGre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRozpocznijGre.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="buttonRezygnujZGry.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonRezygnujZGry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 503</value>
+  </data>
+  <data name="buttonRezygnujZGry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonRezygnujZGry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 28</value>
+  </data>
+  <data name="buttonRezygnujZGry.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonRezygnujZGry.Text" xml:space="preserve">
+    <value>Rezygnuję</value>
+  </data>
+  <data name="buttonRezygnujZGry.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonRezygnujZGry.Name" xml:space="preserve">
+    <value>buttonRezygnujZGry</value>
+  </data>
+  <data name="&gt;&gt;buttonRezygnujZGry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRezygnujZGry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRezygnujZGry.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="buttonWyniki.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonWyniki.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 470</value>
+  </data>
+  <data name="buttonWyniki.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonWyniki.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 28</value>
+  </data>
+  <data name="buttonWyniki.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="buttonWyniki.Text" xml:space="preserve">
+    <value>Wyniki</value>
+  </data>
+  <data name="buttonWyniki.ToolTip" xml:space="preserve">
+    <value>Tabela wyników</value>
+  </data>
+  <data name="buttonWyniki.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonWyniki.Name" xml:space="preserve">
+    <value>buttonWyniki</value>
+  </data>
+  <data name="&gt;&gt;buttonWyniki.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonWyniki.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonWyniki.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBoxKolorAtu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="pictureBoxKolorAtu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pictureBoxKolorAtu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 36</value>
+  </data>
+  <data name="pictureBoxKolorAtu.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBoxKolorAtu.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="pictureBoxKolorAtu.ToolTip" xml:space="preserve">
+    <value>Kolor Atu</value>
+  </data>
+  <data name="pictureBoxKolorAtu.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKolorAtu.Name" xml:space="preserve">
+    <value>pictureBoxKolorAtu</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKolorAtu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKolorAtu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxKolorAtu.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="zbiorKartControlLewa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 158</value>
+  </data>
+  <data name="zbiorKartControlLewa.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlLewa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 142</value>
+  </data>
+  <data name="zbiorKartControlLewa.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="zbiorKartControlLewa.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlLewa.Name" xml:space="preserve">
+    <value>zbiorKartControlLewa</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlLewa.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlLewa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlLewa.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="graczControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 326</value>
+  </data>
+  <data name="graczControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="graczControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 134</value>
+  </data>
+  <data name="graczControl.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="graczControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;graczControl.Name" xml:space="preserve">
+    <value>graczControl</value>
+  </data>
+  <data name="&gt;&gt;graczControl.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.GraczControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;graczControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;graczControl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="graczControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 15</value>
+  </data>
+  <data name="graczControl3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="graczControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 134</value>
+  </data>
+  <data name="graczControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="graczControl3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;graczControl3.Name" xml:space="preserve">
+    <value>graczControl3</value>
+  </data>
+  <data name="&gt;&gt;graczControl3.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.GraczControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;graczControl3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;graczControl3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="graczControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 15</value>
+  </data>
+  <data name="graczControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="graczControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 135</value>
+  </data>
+  <data name="graczControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="graczControl2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;graczControl2.Name" xml:space="preserve">
+    <value>graczControl2</value>
+  </data>
+  <data name="&gt;&gt;graczControl2.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.GraczControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;graczControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;graczControl2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="zbiorKartControlKartyWygrane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 158</value>
+  </data>
+  <data name="zbiorKartControlKartyWygrane.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlKartyWygrane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 142</value>
+  </data>
+  <data name="zbiorKartControlKartyWygrane.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="zbiorKartControlKartyWygrane.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyWygrane.Name" xml:space="preserve">
+    <value>zbiorKartControlKartyWygrane</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyWygrane.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyWygrane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyWygrane.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="zbiorKartControlKartyRozdane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 319</value>
+  </data>
+  <data name="zbiorKartControlKartyRozdane.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlKartyRozdane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 142</value>
+  </data>
+  <data name="zbiorKartControlKartyRozdane.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="zbiorKartControlKartyRozdane.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyRozdane.Name" xml:space="preserve">
+    <value>zbiorKartControlKartyRozdane</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyRozdane.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyRozdane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartyRozdane.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="kartaBoxKier9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKier9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 710</value>
+  </data>
+  <data name="kartaBoxKier9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKier9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKier9.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="kartaBoxKier9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier9.Name" xml:space="preserve">
+    <value>kartaBoxKier9</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier9.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier9.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="kartaBoxKierWalet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKierWalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 709</value>
+  </data>
+  <data name="kartaBoxKierWalet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKierWalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKierWalet.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="kartaBoxKierWalet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierWalet.Name" xml:space="preserve">
+    <value>kartaBoxKierWalet</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierWalet.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierWalet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierWalet.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="kartaBoxKierDama.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKierDama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 709</value>
+  </data>
+  <data name="kartaBoxKierDama.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKierDama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKierDama.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="kartaBoxKierDama.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierDama.Name" xml:space="preserve">
+    <value>kartaBoxKierDama</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierDama.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierDama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierDama.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="kartaBoxKierKrol.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKierKrol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 710</value>
+  </data>
+  <data name="kartaBoxKierKrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKierKrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKierKrol.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="kartaBoxKierKrol.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierKrol.Name" xml:space="preserve">
+    <value>kartaBoxKierKrol</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierKrol.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierKrol.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierKrol.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="kartaBoxKier10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKier10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 710</value>
+  </data>
+  <data name="kartaBoxKier10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKier10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKier10.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="kartaBoxKier10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier10.Name" xml:space="preserve">
+    <value>kartaBoxKier10</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier10.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKier10.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="kartaBoxKierAs.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKierAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 710</value>
+  </data>
+  <data name="kartaBoxKierAs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKierAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKierAs.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="kartaBoxKierAs.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierAs.Name" xml:space="preserve">
+    <value>kartaBoxKierAs</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierAs.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierAs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKierAs.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="kartaBoxKaro9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaro9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 710</value>
+  </data>
+  <data name="kartaBoxKaro9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaro9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaro9.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="kartaBoxKaro9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro9.Name" xml:space="preserve">
+    <value>kartaBoxKaro9</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro9.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="kartaBoxKaroWalet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaroWalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 710</value>
+  </data>
+  <data name="kartaBoxKaroWalet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaroWalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaroWalet.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="kartaBoxKaroWalet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroWalet.Name" xml:space="preserve">
+    <value>kartaBoxKaroWalet</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroWalet.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroWalet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroWalet.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="kartaBoxKaroDama.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaroDama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 709</value>
+  </data>
+  <data name="kartaBoxKaroDama.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaroDama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaroDama.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="kartaBoxKaroDama.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroDama.Name" xml:space="preserve">
+    <value>kartaBoxKaroDama</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroDama.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroDama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroDama.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="kartaBoxKaroKrol.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaroKrol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 710</value>
+  </data>
+  <data name="kartaBoxKaroKrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaroKrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaroKrol.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="kartaBoxKaroKrol.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroKrol.Name" xml:space="preserve">
+    <value>kartaBoxKaroKrol</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroKrol.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroKrol.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroKrol.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="kartaBoxKaro10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaro10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 710</value>
+  </data>
+  <data name="kartaBoxKaro10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaro10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaro10.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="kartaBoxKaro10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro10.Name" xml:space="preserve">
+    <value>kartaBoxKaro10</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro10.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaro10.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="kartaBoxKaroAs.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxKaroAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 710</value>
+  </data>
+  <data name="kartaBoxKaroAs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxKaroAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxKaroAs.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="kartaBoxKaroAs.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroAs.Name" xml:space="preserve">
+    <value>kartaBoxKaroAs</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroAs.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroAs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxKaroAs.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="kartaBoxTrefl9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTrefl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 586</value>
+  </data>
+  <data name="kartaBoxTrefl9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTrefl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTrefl9.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="kartaBoxTrefl9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl9.Name" xml:space="preserve">
+    <value>kartaBoxTrefl9</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl9.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl9.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="kartaBoxTreflWalet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTreflWalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 585</value>
+  </data>
+  <data name="kartaBoxTreflWalet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTreflWalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTreflWalet.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="kartaBoxTreflWalet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflWalet.Name" xml:space="preserve">
+    <value>kartaBoxTreflWalet</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflWalet.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflWalet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflWalet.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="kartaBoxTreflDama.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTreflDama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 585</value>
+  </data>
+  <data name="kartaBoxTreflDama.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTreflDama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTreflDama.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="kartaBoxTreflDama.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflDama.Name" xml:space="preserve">
+    <value>kartaBoxTreflDama</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflDama.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflDama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflDama.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="kartaBoxTreflKrol.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTreflKrol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 586</value>
+  </data>
+  <data name="kartaBoxTreflKrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTreflKrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTreflKrol.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="kartaBoxTreflKrol.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflKrol.Name" xml:space="preserve">
+    <value>kartaBoxTreflKrol</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflKrol.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflKrol.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflKrol.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="kartaBoxTrefl10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTrefl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 586</value>
+  </data>
+  <data name="kartaBoxTrefl10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTrefl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTrefl10.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="kartaBoxTrefl10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl10.Name" xml:space="preserve">
+    <value>kartaBoxTrefl10</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl10.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTrefl10.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="kartaBoxTreflAs.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxTreflAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 586</value>
+  </data>
+  <data name="kartaBoxTreflAs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxTreflAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxTreflAs.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="kartaBoxTreflAs.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflAs.Name" xml:space="preserve">
+    <value>kartaBoxTreflAs</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflAs.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflAs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxTreflAs.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="kartaBoxPik9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPik9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 586</value>
+  </data>
+  <data name="kartaBoxPik9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPik9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPik9.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="kartaBoxPik9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik9.Name" xml:space="preserve">
+    <value>kartaBoxPik9</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik9.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik9.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="kartaBoxPikWalet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPikWalet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 586</value>
+  </data>
+  <data name="kartaBoxPikWalet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPikWalet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPikWalet.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="kartaBoxPikWalet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikWalet.Name" xml:space="preserve">
+    <value>kartaBoxPikWalet</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikWalet.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikWalet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikWalet.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="kartaBoxPikDama.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPikDama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 585</value>
+  </data>
+  <data name="kartaBoxPikDama.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPikDama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPikDama.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="kartaBoxPikDama.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikDama.Name" xml:space="preserve">
+    <value>kartaBoxPikDama</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikDama.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikDama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikDama.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="kartaBoxPikKrol.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPikKrol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 586</value>
+  </data>
+  <data name="kartaBoxPikKrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPikKrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPikKrol.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="kartaBoxPikKrol.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikKrol.Name" xml:space="preserve">
+    <value>kartaBoxPikKrol</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikKrol.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikKrol.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikKrol.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="kartaBoxPik10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPik10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 586</value>
+  </data>
+  <data name="kartaBoxPik10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPik10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPik10.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="kartaBoxPik10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik10.Name" xml:space="preserve">
+    <value>kartaBoxPik10</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik10.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPik10.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="kartaBoxPikAs.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="kartaBoxPikAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 586</value>
+  </data>
+  <data name="kartaBoxPikAs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="kartaBoxPikAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 117</value>
+  </data>
+  <data name="kartaBoxPikAs.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="kartaBoxPikAs.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikAs.Name" xml:space="preserve">
+    <value>kartaBoxPikAs</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikAs.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.KartaBox, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikAs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;kartaBoxPikAs.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 2</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 142</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza2.Name" xml:space="preserve">
+    <value>zbiorKartControlKartaGracza2</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza2.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza2.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 2</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 142</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza3.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="zbiorKartControlKartaGracza3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza3.Name" xml:space="preserve">
+    <value>zbiorKartControlKartaGracza3</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza3.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlKartaGracza3.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="zbiorKartControlTalon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 158</value>
+  </data>
+  <data name="zbiorKartControlTalon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="zbiorKartControlTalon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 142</value>
+  </data>
+  <data name="zbiorKartControlTalon.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="zbiorKartControlTalon.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlTalon.Name" xml:space="preserve">
+    <value>zbiorKartControlTalon</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlTalon.Type" xml:space="preserve">
+    <value>TysiacClassLibrary.ZbiorKartControl, TysiacClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlTalon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zbiorKartControlTalon.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="labelChat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelChat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelChat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>809, 15</value>
+  </data>
+  <data name="labelChat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 17</value>
+  </data>
+  <data name="labelChat.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="labelChat.Text" xml:space="preserve">
+    <value>Rozmowa z graczami przy stoliku</value>
+  </data>
+  <data name="&gt;&gt;labelChat.Name" xml:space="preserve">
+    <value>labelChat</value>
+  </data>
+  <data name="&gt;&gt;labelChat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelChat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="richTextBoxChat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>813, 34</value>
+  </data>
+  <data name="richTextBoxChat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="richTextBoxChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 365</value>
+  </data>
+  <data name="richTextBoxChat.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="richTextBoxChat.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richTextBoxChat.Name" xml:space="preserve">
+    <value>richTextBoxChat</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxChat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxChat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxChat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="richTextBoxMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>813, 407</value>
+  </data>
+  <data name="richTextBoxMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="richTextBoxMessage.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="richTextBoxMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 84</value>
+  </data>
+  <data name="richTextBoxMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="richTextBoxMessage.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Name" xml:space="preserve">
+    <value>richTextBoxMessage</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxMessage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSendMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>813, 502</value>
+  </data>
+  <data name="buttonSendMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonSendMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 30</value>
+  </data>
+  <data name="buttonSendMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="buttonSendMessage.Text" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="&gt;&gt;buttonSendMessage.Name" xml:space="preserve">
+    <value>buttonSendMessage</value>
+  </data>
+  <data name="&gt;&gt;buttonSendMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSendMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSendMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>42</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 537</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Stolik gracza</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormStolikGracza</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

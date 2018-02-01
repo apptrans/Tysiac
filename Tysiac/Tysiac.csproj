@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A84A3D6-0909-4DFE-8889-5F7F4CB936E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tysiac</RootNamespace>
+    <AssemblyName>Tysiac</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>C:\Users\ASUS\Documents\Visual Studio 2010\Publish\Tysiac\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DC37880856A92FAF3CBE07DBDD53C860652FB429</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Tysiac_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPokoik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPokoik.Designer.cs">
+      <DependentUpon>FormPokoik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPokoik.resx">
+      <DependentUpon>FormPokoik.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStolikGracza.resx">
+      <DependentUpon>FormStolikGracza.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabelaWynikow.resx">
+      <DependentUpon>FormTabelaWynikow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FormStolikGracza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStolikGracza.Designer.cs">
+      <DependentUpon>FormStolikGracza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabelaWynikow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabelaWynikow.Designer.cs">
+      <DependentUpon>FormTabelaWynikow.cs</DependentUpon>
+    </Compile>
+    <None Include="Tysiac_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetworkLibrary\Network.csproj">
+      <Project>{E98C105E-ADF6-4742-A98D-F911DB904FDB}</Project>
+      <Name>Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TysiacClassLibrary\TysiacClassLibrary.csproj">
+      <Project>{C257C085-FDBC-4F87-A519-B1D0F794854E}</Project>
+      <Name>TysiacClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonRezygnujZGry.BackgroundImage.png" />
+    <None Include="Images\backGreen.PNG" />
+    <None Include="Images\backGreen.JPG" />
+    <Content Include="Images\Cards\cardSkin.PNG" />
+    <None Include="Images\Cards\cl.gif" />
+    <Content Include="Images\Cards\cl1.gif" />
+    <Content Include="Images\Cards\cl10.gif" />
+    <Content Include="Images\Cards\cl2.gif" />
+    <Content Include="Images\Cards\cl3.gif" />
+    <Content Include="Images\Cards\cl4.gif" />
+    <Content Include="Images\Cards\cl5.gif" />
+    <Content Include="Images\Cards\cl6.gif" />
+    <Content Include="Images\Cards\cl7.gif" />
+    <Content Include="Images\Cards\cl8.gif" />
+    <Content Include="Images\Cards\cl9.gif" />
+    <Content Include="Images\Cards\clk.gif" />
+    <Content Include="Images\Cards\clq.gif" />
+    <None Include="Images\Cards\di.gif" />
+    <Content Include="Images\Cards\di1.gif" />
+    <Content Include="Images\Cards\di10.gif" />
+    <Content Include="Images\Cards\di2.gif" />
+    <Content Include="Images\Cards\di3.gif" />
+    <Content Include="Images\Cards\di4.gif" />
+    <Content Include="Images\Cards\di5.gif" />
+    <Content Include="Images\Cards\di6.gif" />
+    <Content Include="Images\Cards\di7.gif" />
+    <Content Include="Images\Cards\di8.gif" />
+    <Content Include="Images\Cards\di9.gif" />
+    <Content Include="Images\Cards\dij.gif" />
+    <Content Include="Images\Cards\dik.gif" />
+    <Content Include="Images\Cards\diq.gif" />
+    <None Include="Images\Cards\he.gif" />
+    <Content Include="Images\Cards\he1.gif" />
+    <Content Include="Images\Cards\he10.gif" />
+    <Content Include="Images\Cards\he2.gif" />
+    <Content Include="Images\Cards\he3.gif" />
+    <Content Include="Images\Cards\he4.gif" />
+    <Content Include="Images\Cards\he5.gif" />
+    <Content Include="Images\Cards\he6.gif" />
+    <Content Include="Images\Cards\he7.gif" />
+    <Content Include="Images\Cards\he8.gif" />
+    <Content Include="Images\Cards\he9.gif" />
+    <Content Include="Images\Cards\hej.gif" />
+    <Content Include="Images\Cards\hek.gif" />
+    <Content Include="Images\Cards\heq.gif" />
+    <None Include="Images\Cards\sp.gif" />
+    <Content Include="Images\Cards\sp1.gif" />
+    <Content Include="Images\Cards\sp10.gif" />
+    <Content Include="Images\Cards\sp2.gif" />
+    <Content Include="Images\Cards\sp3.gif" />
+    <Content Include="Images\Cards\sp4.gif" />
+    <Content Include="Images\Cards\sp5.gif" />
+    <Content Include="Images\Cards\sp6.gif" />
+    <Content Include="Images\Cards\sp7.gif" />
+    <Content Include="Images\Cards\sp8.gif" />
+    <Content Include="Images\Cards\sp9.gif" />
+    <Content Include="Images\Cards\spj.gif" />
+    <Content Include="Images\Cards\spk.gif" />
+    <Content Include="Images\Cards\spq.gif" />
+    <Content Include="Images\Players\cat.jpg" />
+    <Content Include="Images\Players\rubberduck.jpg" />
+    <Content Include="Images\Players\soccerball.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

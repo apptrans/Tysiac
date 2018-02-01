@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TysiacClassLibrary.Rozgrywka">
+    <Position X="3.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="TysiacClassLibrary.Rozgrywka.OnKolorAtuChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rozgrywka.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="graczRozdajacy" Type="TysiacClassLibrary.Gracz" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="0.938" />
+        <Point X="8.25" Y="0.938" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ostatniWynik" Type="TysiacClassLibrary.WynikRozdania" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="2.688" />
+        <Point X="8.25" Y="2.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAOAAgKBiABQEAFAUACAQCAQgAQiEABAIAFAQgAhQE=</HashCode>
+      <FileName>Rozgrywka.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="stanRozgrywki" />
+      <Field Name="stolik" />
+      <Field Name="graczRozdajacy" />
+      <Field Name="graczRozgrywajacy" />
+      <Field Name="talia" />
+      <Field Name="talon" />
+      <Field Name="kolorAtu" />
+      <Field Name="lewa" />
+      <Field Name="ostatniWynik" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="wyniki" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TysiacClassLibrary.Gracz" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEoAACAIABAkhAEAgAABAIABCAEBAQCBAQAAAAQ=</HashCode>
+      <FileName>Gracz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.Lewa" Collapsed="true">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAUAAAoBAAAAAAAAAAQAAAgAAAAIAgAABAAAAAAA=</HashCode>
+      <FileName>Lewa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.WynikRozdania" Collapsed="true">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgAAABAAAAAQAAAACAAAAAgAgAAAAEAAAABAA=</HashCode>
+      <FileName>WynikRozdania.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.Stolik" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAAAABAAAIEAAACAAAAAAAAAABAACAAQEAAAAA=</HashCode>
+      <FileName>Stolik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.Talia" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAEABAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Talia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TysiacClassLibrary.Talon" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Talon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TysiacClassLibrary.StanyRozgrywki">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAQAAAACBAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Rozgrywka.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TysiacClassLibrary.KoloryKart">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Karta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>
