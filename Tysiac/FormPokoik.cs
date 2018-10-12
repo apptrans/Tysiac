@@ -354,7 +354,7 @@ namespace Tysiac
             // Check the port value
             if (textBoxPort.Text == "")
             {
-                MessageBox.Show("Please enter a Port Number");
+                MessageBox.Show("Please enter a port number");
                 return;
             }
 
